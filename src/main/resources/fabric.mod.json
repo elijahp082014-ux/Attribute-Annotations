@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "attribute-annotations",
+  "version": "${version}",
+  "name": "AttributeAnnotations",
+  "description": "Ehh, nothing here. Go to the GitHub page instead!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/attribute-annotations/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.elijahsonicboy.annotator.client.AnnotatorClient"
+    ],
+    "main": [
+      "io.elijahsonicboy.annotator.Annotator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
