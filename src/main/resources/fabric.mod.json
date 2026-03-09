@@ -1,13 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "attribute-annotations",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "AttributeAnnotations",
   "description": "Ehh, nothing here. Go to the GitHub page instead!",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "ElijahSonicboy"
+  ],
+  "contact": {
+    "sources": "https://github.com/elijahp082014-ux/Attribute-Annotations"
+  },
   "license": "MIT",
-  "icon": "assets/attribute-annotations/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -18,8 +21,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "0.18.4",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "1.21.11"
   }
 }
